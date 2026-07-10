@@ -66,6 +66,66 @@ body{
     font-size: small;
 }
 
-.btnReg{
+/* speakers meet css */
+.card{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     
+}
+.cardVari{
+    max-width: auto;
+    margin: auto;
+}
+.headerText{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+.allCard{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "one two"
+    "three four";
+    
+    
+    
+}
+.card_1{
+    grid-area: one;
+}
+
+.card_2{
+    grid-area: two;
+}
+.card_3{
+    grid-area: three;
+}
+.card_4{
+    grid-area: four;
+}
+
+.card_css{
+    border: 1px solid #efefef;
+    border-radius: 20px;
+}
+.text_area{
+    padding: 10px;
+}
+.text_area , span{
+    font-size: x-small;
+}
+
+.text_area , span, h3, p{
+    padding-top: 5px;
+}
+.text_area, p{
+    padding-bottom: 10px;
+}
+
+.image, img{
+    object-fit: cover;
+    border-top-left-radius:  20px;
+    border-top-right-radius:  20px;
 }
