@@ -75,16 +75,18 @@ body{
 }
 .cardVari{
     max-width: auto;
-    margin: auto;
+    /* margin: auto; */
 }
 .headerText{
     text-align: center;
     margin-bottom: 50px;
     font-size: x-large;
+    padding-top: 20px;
 }
 .allCard{
     display: grid;
     gap: 30px;
+    /* padding-right: 180px; */
     grid-template-areas: 
     "one two"
     "three four";
@@ -113,8 +115,9 @@ body{
 .text_area{
     padding: 10px;
 }
-.text_area , span{
+.text_area > span{
     font-size: x-small;
+    color: #0030ce;
 }
 
 .text_area , span, h3, p{
@@ -128,4 +131,10 @@ body{
     object-fit: cover;
     border-top-left-radius:  20px;
     border-top-right-radius:  20px;
+}
+.text_area> h3{
+    font-size: 16px;
+}
+.text_area> p{
+    font-size: 10px;
 }
