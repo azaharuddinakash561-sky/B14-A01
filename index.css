@@ -138,3 +138,39 @@ body{
 .text_area> p{
     font-size: 10px;
 }
+
+/* footer start */
+.bodyColor{
+    background: #0D1B2A;
+}
+.fBody{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 260px;
+    align-items: center;
+}
+.left{
+    
+    
+}
+.logo{
+    color: white;
+}
+.privacy_service{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+/* footer right */
+
+.social-icons{
+    font-size: x-large;
+}
+hr{
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 15px o;
+}
