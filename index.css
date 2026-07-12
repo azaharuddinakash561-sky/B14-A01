@@ -76,7 +76,7 @@ body{
 }
 .cardVari{
     max-width: auto;
-    /* margin: auto; */
+   
 }
 .headerText{
     text-align: center;
@@ -88,7 +88,7 @@ body{
 .allCard{
     display: grid;
     gap: 30px;
-    /* padding-right: 180px; */
+    
     grid-template-areas: 
     "one two"
     "three four";
@@ -167,6 +167,10 @@ body{
 
 .social-icons {
     font-size: x-large;
+    
+}
+.social-icons > a{
+    text-decoration: none;
     
 }
 hr{
