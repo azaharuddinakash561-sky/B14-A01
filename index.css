@@ -70,7 +70,7 @@ body{
 .card{
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 270px;
     
 }
 .cardVari{
@@ -79,6 +79,7 @@ body{
 }
 .headerText{
     text-align: center;
+    margin-left: 120px;
     margin-bottom: 50px;
     font-size: x-large;
     padding-top: 20px;
