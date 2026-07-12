@@ -183,3 +183,104 @@ hr{
     color: white;
     font-size: 17px;
 }
+.secureSport{
+    text-align: center;
+    padding-top: 30px;
+}
+.secureSport > h3{
+font-size: xx-large;
+color: #0D1B2A;
+}
+.secureSport > p{
+    font-size: 18px;
+    color: #575757;
+}
+
+.spot1{
+    width: 370.66px;
+    height: 444px;
+    border: 2px solid hwb(0 34% 66% / 0.116) ;
+    border-radius: 20px;
+    padding: 30px;
+}
+.StandardText > span{
+    color: #888888;
+    font-size: 13px;
+}
+
+.StandardText > h4{
+    color: #0D1B2A;
+    font-size: 44px;
+}
+
+.StandardText > p{
+    color: #888888;
+    font-size: 13px;
+}
+.ulText > li{
+    margin-left: 22px;
+}
+
+.ulText > li::marker{
+    font-size: 18px;
+    color: blue;
+    line-height: 3.9;
+    text-align: center;
+}
+.allSpotPrice{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 80px;
+    padding-bottom: 140px;
+}
+
+.bg0D1B2A{
+    background: #0D1B2A;
+}
+
+.ulpro{
+    color: #FFFFFF;
+}
+.ulpro > h4{
+    color: #FFFFFF;
+}
+.ulpro > span{
+    color: #FFFFFF;
+}
+.btn_reg1{
+    margin-top: 20px;
+    padding: 15px 140px;
+    background: #ffffff;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: initial ;
+    font-weight:700;
+}
+.btn_reg{
+    margin-top: 20px;
+    padding: 15px 160px;
+    background: #0030ce;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: initial ;
+    font-weight:700;
+}
+
+.btn_reg3{
+    margin-top: 20px;
+    padding: 15px 140px;
+    background: #ffffff;
+    color: #0D1B2A;
+    border: 2px solid #0D1B2A;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: initial ;
+    font-weight:700;
+}
