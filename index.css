@@ -45,7 +45,7 @@ body{
     background-image: url(./assets/banner.jpg);
     background-size:cover;
     background-position: center;
-    height: 600px;
+    height: 786px;
     
 }
 
@@ -63,8 +63,9 @@ body{
 #hero_desc{
     padding-bottom: 20px;
     color: #ffffff;
-    font-size: small;
+    font-size: 22px;
 }
+
 
 /* speakers meet css */
 .card{
@@ -184,6 +185,7 @@ hr{
     color: white;
     font-size: 17px;
 }
+/* secure your spot start */
 .secureSport{
     text-align: center;
     padding-top: 30px;
@@ -284,4 +286,24 @@ color: #0D1B2A;
     font-size: 14px;
     font-family: initial ;
     font-weight:700;
+}
+
+/* PLACEHOLDER SECTION — AI CHALLENGE */
+
+.confarance> img{
+    max-width: 750px;
+    height: 600px;
+     object-fit: cover;
+    
+}
+.placeholder{
+    display: flex;
+    padding: 80px 160px;
+    gap: 40px;
+}
+.textPlaceholder{
+    text-align: center;
+    padding-top: 180px;
+    font-size: large;
+    font-weight: 800;
 }
