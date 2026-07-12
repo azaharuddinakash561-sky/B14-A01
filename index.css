@@ -140,19 +140,17 @@ body{
 }
 
 /* footer start */
+
 .bodyColor{
     background: #0D1B2A;
 }
 .fBody{
     display: flex;
     justify-content: space-between;
-    padding: 60px 260px;
+    padding: 80px 200px;
     align-items: center;
 }
-.left{
-    
-    
-}
+
 .logo{
     color: white;
 }
@@ -160,17 +158,28 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 8px;
+    color: #efefef;
+    font-size: 12px;
 }
 /* footer right */
 
-.social-icons{
+.social-icons {
     font-size: x-large;
+    
 }
 hr{
     color: #ffffff;
-    width: 100%;
-    border: none;
-    height: 1px;
-    background-color: #ffffff;
-    margin: 15px o;
+    padding: 0 40px;
+    
+}
+.copyRight{
+    text-align: center;
+    padding: 30px;
+    color: #efefef;
+    font-size: 10px;
+}
+
+.textColor{
+    color: white;
+    font-size: 17px;
 }
