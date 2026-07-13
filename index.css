@@ -39,13 +39,15 @@ body{
 }
 
 
+
 /* hero section  */
 
 #hero{
-    background-image: url(./assets/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg);
     background-size:cover;
     background-position: center;
-    height: 786px;
+    height: 90vh;
+    background-repeat: no-repeat;
     
 }
 
@@ -59,13 +61,18 @@ body{
 #hero_text{
     padding-bottom: 20px;
     color: #ffff;
+    font-size: 30px;
 }
 #hero_desc{
     padding-bottom: 20px;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
+.btnReg{
+    margin-top: 400px;   
+}
 
 /* speakers meet css */
 .card{
