@@ -156,7 +156,8 @@ body{
 .fBody{
     display: flex;
     justify-content: space-between;
-    padding: 80px 200px;
+    padding: 30px 200px;
+    padding-bottom: 0;
     align-items: center;
 }
 
